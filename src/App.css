@@ -5,7 +5,7 @@
   border: 1px solid white;
 
   color: white;
-  font-family: "FreeMono";
+  font-family: "FreeMono", "Lucida Console", Monaco, monospace;
 }
 
 .App-logo {
