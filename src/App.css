@@ -1,0 +1,37 @@
+.App {
+  margin: 5vh 12vw 5vh 12vw;
+  height: 80vh;
+  text-align: center;
+  border: 1px solid white;
+
+  color: white;
+  font-family: "FreeMono";
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+  filter: invert(99%) sepia(28%) saturate(2%) hue-rotate(40deg) brightness(500%);
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Divider {
+  display: inline-block;
+  width: 50%;
+  height: calc(100% - 50px);
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,77 @@
+
+.UiHeader {
+    /*background-color: #222;*/
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 50px;
+    padding: 2px;
+    color: white;
+}
+
+.UiHeader > button {
+    background-color: white;
+    border: none;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.UiHeader > button:hover {
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+}
+
+.UiHeader > * {
+    margin-right: 30px;
+}
+
+.FileDisplay {
+    border: 1px solid white;
+    width: 90%;
+    height: 92%;
+    overflow: hidden;
+    margin: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.FileManager {
+    border: 1px solid white;
+    width: 90%;
+    height: 30%;
+    margin: 20px;
+}
+
+.Terminal {
+    border: 1px solid white;
+    width: 90%;
+    height: 92%;
+    overflow: hidden;
+    margin: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.FileDisplayTitle {
+    background-color: white;
+    color: black;
+}
+
+.TerminalLogLine {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.TerminalLog {
+
+}
+
+.TerminalCommandLine {
+
+}
